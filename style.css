@@ -19,10 +19,10 @@ body {
 #top {
     color: white;
     background-image: url("./assets/Wood-Textures-Free.jpg");
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    padding-right: 45vw;
-    padding-left: 45vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 25vw;
+    padding-left: 25vw;
     position: fixed;
     z-index: -100;
 }
