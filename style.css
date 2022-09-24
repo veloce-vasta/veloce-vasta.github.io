@@ -1,84 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+#top {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("./assets/Wood-Textures-Free.jpg");
+    font-size: 40px;
+}
+
 body {
-    background-color:rgb(66, 66, 66);
+    background-color:rgb(38, 38, 38);
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     scroll-behavior: smooth;
     margin: auto;
 }
 
-.title{
-    height: 50vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-#top {
+a {
     color: white;
-    background-image: url("./assets/Wood-Textures-Free.jpg");
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-right: 35vw;
-    padding-left: 35vw;
-    position: fixed;
-    z-index: -100;
-    overflow: hidden;
-    border-radius: 10px;
 }
 
 .nav {
-    height: 100%;
-    width: 300px;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
-  }
-  
-  .nav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    border-radius: 10px;
-  }
-  
-  .nav a:hover {
-    color: #f1f1f1;
-  }
-  
-  
-  .main {
-    transition: margin-left .5s;
-    padding: 16px;
-    margin-left: 250px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 35px;}
-  }
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #111;
+    margin: auto;
+}
 
-  * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  h1 {
-    max-width: 40ch;
-    text-align: center;
-    transform: scale(0.94);
-    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-  }
-  @keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-  }
+.nav a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #111;
+    transition-duration: 0.3s;
+    color: #333;
+    font-size: 25px;
+}
+
+p, h1 {
+    padding-left: 10px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.header-1 {
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+
+.header-1:hover {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
   
   span {
     display: inline-block;
@@ -135,16 +118,4 @@ body {
       opacity: 1;
       filter: blur(0);
     }
-  }
-
-  .header-1 {
-    text-decoration: underline;
-    color: white;
-    transition-duration: 0.3s;
-  }
-
-  .header-1:hover {
-    text-decoration: none;
-    color: #aaa;
-    transition-duration: 0.3s;
   }
