@@ -21,35 +21,34 @@ body {
     background-image: url("./assets/Wood-Textures-Free.jpg");
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 35vw;
+    padding-left: 35vw;
     position: fixed;
     z-index: -100;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
-.sidenav {
+.nav {
     height: 100%;
     width: 300px;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
   }
   
-  .sidenav a {
+  .nav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    border-radius: 10px;
   }
   
-  .sidenav a:hover {
+  .nav a:hover {
     color: #f1f1f1;
   }
   
@@ -144,7 +143,7 @@ body {
     transition-duration: 0.3s;
   }
 
-  .header-t:hover {
+  .header-1:hover {
     text-decoration: none;
     color: #aaa;
     transition-duration: 0.3s;
