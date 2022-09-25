@@ -119,3 +119,14 @@ p, h1 {
       filter: blur(0);
     }
   }
+
+  .icon {
+    height: 40px;
+    width: 40px;
+    padding-left: 30px;
+    vertical-align: middle;
+  }
+
+  .span-contact {
+    padding-left: 20px;
+  }
