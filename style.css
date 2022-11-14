@@ -176,6 +176,9 @@ p, h1 {
 
 #display {
   display: flex;
+  max-width: 80vw;
+  overflow: auto;
+  border-radius: 10px;;
 }
 
 #s-c {
