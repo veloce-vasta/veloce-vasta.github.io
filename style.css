@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 html {
-    scroll-behavior: smooth;
+    /*scroll-behavior: smooth;*/
 }
 
 .main {
@@ -131,3 +131,47 @@ p, h1 {
     padding-left: 30px;
     vertical-align: middle;
   }
+
+
+#arduino-prjcts {
+  background-color: #313131;
+  padding: 15px;
+  width: 130px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  margin-right: 10px;
+  height: 170px;
+}
+
+#arduino-prjcts:hover {
+  background-color: #353535;
+  transition-duration: 0.3s;
+}
+
+.ard {
+  padding-left: 10px;
+  width: 110px;
+}
+
+#num-ai {
+  background-color: #313131;
+  padding: 15px;
+  width: 130px;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+  height: 170px;
+}
+
+#num-ai:hover {
+  background-color: #353535;
+  transition-duration: 0.3s;
+}
+
+.numai {
+  padding-left: 10px;
+  width: 110px;
+}
+
+#display {
+  display: flex;
+}
