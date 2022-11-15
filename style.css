@@ -17,11 +17,11 @@ html {
 }
 
 body {
-    background-color:rgb(38, 38, 38);
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    scroll-behavior: smooth;
-    margin: auto;
+  background-color: #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(3, 3, 3);
+  scroll-behavior: smooth;
+  margin: auto;
 }
 
 a {
@@ -61,6 +61,7 @@ p, h1 {
 .header-1 {
     text-decoration: underline;
     transition-duration: 0.3s;
+    color: white;
 }
 
 .header-1:hover {
@@ -133,34 +134,11 @@ p, h1 {
   }
 
 
-#arduino-prjcts {
-  background-color: #313131;
-  padding: 15px;
-  width: 130px;
-  border-radius: 10px;
-  transition-duration: 0.3s;
-  margin-right: 10px;
-  height: 170px;
-  text-align: center;
-}
-
-#arduino-prjcts:hover {
-  background-color: #353535;
-  transition-duration: 0.3s;
-}
-
-.ard {
-  width: 110px;
-}
-
 #display {
   display: flex;
-  max-width: 80vw;
-  overflow: auto;
-  border-radius: 10px;;
 }
 
-#s-c {
+.proj {
   background-color: #313131;
   padding: 15px;
   width: 130px;
@@ -168,9 +146,10 @@ p, h1 {
   transition-duration: 0.3s;
   height: 170px;
   text-align: center;
+  margin-right: 10px;
 }
 
-#s-c:hover {
+.proj:hover {
   background-color: #353535;
   transition-duration: 0.3s;
 }
@@ -178,4 +157,12 @@ p, h1 {
 .cookie {
   font-size: 100px;
   margin-left: 5px;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  color: white;
 }
