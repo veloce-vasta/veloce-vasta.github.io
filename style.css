@@ -153,27 +153,6 @@ p, h1 {
   width: 110px;
 }
 
-#num-ai {
-  background-color: #313131;
-  padding: 15px;
-  width: 130px;
-  border-radius: 10px;
-  transition-duration: 0.3s;
-  height: 170px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-#num-ai:hover {
-  background-color: #353535;
-  transition-duration: 0.3s;
-}
-
-.numai {
-  padding-left: 10px;
-  width: 110px;
-}
-
 #display {
   display: flex;
   max-width: 80vw;
