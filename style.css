@@ -16,7 +16,9 @@ html {
     max-height: 339px;
     background-image: url("./assets/Wood-Textures-Free.jpg");
     max-height: 300px;
+    min-height: 200px;
     font-size: 6vw;
+    width: 100%;
 }
 
 body {
@@ -175,10 +177,9 @@ h2 {
   color: white;
 }
 
-.sticky {
+#nav.sticky {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
-  transition-duration: 0.3s;
 }
