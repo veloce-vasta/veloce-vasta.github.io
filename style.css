@@ -10,10 +10,12 @@ html {
 
 #top {
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    margin: auto;
+    padding-top: calc(70px - 6vw);
+    padding-bottom: calc(70px - 6vw);
+    max-height: 339px;
     background-image: url("./assets/Wood-Textures-Free.jpg");
-    max-height: 397px;
+    max-height: 300px;
     font-size: 6vw;
 }
 
