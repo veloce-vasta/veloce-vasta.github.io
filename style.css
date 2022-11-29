@@ -38,6 +38,7 @@ a {
     background-color: #111;
     margin: auto;
     text-align: center;
+    
 }
 
 .nav a {
@@ -170,4 +171,12 @@ p {
 
 h2 {
   color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  transition-duration: 0.3s;
 }
