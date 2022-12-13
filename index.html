@@ -2,104 +2,40 @@
 <html>
   <head>
     <title>Stan-Solov</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.c ss" />
     <link rel="icon" type="image/x-icon" href="./assets/favicon.jpg" />
   </head>
-  <body>
+  <body onscroll="checkAll()">
     <div id="top">
-      <div class="title">
-        <h1>
-          <span>V</span>
-          <span>e</span>
-          <span>l</span>
-          <span>o</span>
-          <span>c</span>
-          <span>e</span>
-          <span>-</span>
-          <span>V</span>
-          <span>a</span>
-          <span>s</span>
-          <span>t</span>
-          <span>a</span>
-        </h1>
-      </div>
+      <p style="font-size:20px !important; margin-bottom: 0px;">Hi, I'm</p>
+      Veloce-vasta
     </div>
-    <div id="nav" class="nav">
-      <a href="#prjcts">Projects</a>
-      <a href="#cntct">Contact</a>
-    </div>
-    <div class="main">
-      <div id="prjcts">
-        <a href="#prjcts">
-          <h1 class="header-1 dark"># Projects</h1>
-        </a>
-        <div id="display">
-          <a
-            href="https://github.com/stan-solov/arduino-projects"
-            target="_blank"
-            class="dark"
-          >
-            <div id="arduino-prjcts" class="proj">
-              <span
-                ><img
-                  class="ard"
-                  src="https://github.com/arduino/arduino-ide/blob/main/arduino-ide-extension/src/browser/style/ide-logo.png?raw=true"
-                  alt="arduino-icon"
-              /></span>
-              <p>Arduino-Projects</p>
-            </div>
-          </a>
-          <a href="https://github.com/stan-solov/sugar-cookie" class="dark">
-            <div id="s-c" class="proj">
-              <span class="cookie">🍪</span>
-              <p>Sugar Cookie</p>
-            </div>
-          </a>
+    <div id="content">
+      <div id="code">
+        <div id="wd">
+          <pre>
+<span style="color: #33f">const </span>veloceVasta = <span style="color: #ff3">{</span>
+ username: <span style="color: rgb(174, 110, 0)">"Veloce-Vasta"</span>,
+ isOnGithub: <span style="color: #33f">true</span>,
+ findMe: <span style="color: #33f">function</span> <span style="color: #ff3">()</span> <span style="color: rgb(230, 40, 164)">{</span>
+  <span style="color: #33f">return </span> <span style="color: #33f">(</span><span style="color: rgb(174, 110, 0)">"Find "</span> + 
+    <span style="color: #33f">this</span>.username + 
+    if <span style="color: #ff3">(</span><span style="color: #33f">this</span>.isOnGithub<span style="color: #ff3">)</span> <span style="color: rgb(81, 40, 230)">{</span>
+      <span style="color: rgb(174, 110, 0)">" on Github! "
+    </span><span style="color: rgb(81, 40, 230)">}</span><span style="color: #33f">)</span>
+  <span style="color: rgb(230, 40, 164)">}</span>
+<span style="color: #ff3">}</span>
+      </pre>
         </div>
-        <br />
-        <hr />
       </div>
-      <div id="cntct">
-        <a href="#cntct">
-          <h1 class="header-1 dark"># Contact</h1>
-        </a>
-        <div id="f-m">
-          <h2>Find me on</h2>
-          <div id="links">
-            <div id="github">
-              <a href="https://github.com/stan-solov" target="_blank" class="dark">
-                <img
-                  src="./assets/images (3).png"
-                  alt="github icon"
-                  style="padding-left:30px;width:30px;height:30px;vertical-align:middle"
-                />
-                <span style="padding-left:20px;text-decoration:none;"
-                  >Github</span
-                >
-              </a>
-            </div>
-            <div id="github">
-              <a
-                href="https://3dprinting.stackexchange.com/users/35678/stanley"
-                target="_blank"
-                class="dark"
-              >
-                <img
-                  src="./assets/3dse.png"
-                  alt="Stack Exchange 3D printing Icon"
-                  style="padding-left:30px;width:40px;height:40px;vertical-align:middle"
-                />
-                <span style="padding-left:20px;text-decoration:none;"
-                  >Stack Exchange 3D Printing</span
-                >
-              </a>
-            </div>
-          </div>
-        </div>
-        <br />
-        <hr />
+      <div id="top-hi">
+        <h1>Hi!</h1>
+        <p style="font-size: 30px;margin-top: -50px;" class="va">This is my website.</p>
+      </div>
+      <div id="t-s">
+        <h2>Tech Stack</h2>
       </div>
     </div>
-    <script src="./nav.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
