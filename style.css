@@ -1,5 +1,5 @@
 body {
-  background: url('./assets/Wood-Textures-Free.jpg') no-repeat center center fixed; 
+  background: url('./assets/Wood-Textures-Free.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -38,23 +38,29 @@ body {
 
 pre {
   color: black;
-  height: calc(15px*13);
   border-radius: 10px;
-  font-size: 15px;
+  font-size: 20px;
   float: right;
   background-color: rgb(57, 55, 55);
   padding: 10px;
-  padding-bottom: none;
+  text-align: left;
   margin-right: 20px;
   margin-top: 20px;
   transition-duration: 0.3s;
+  height: fit-content;
+  z-index: 100;
+  width: 350px
 }
 
 #top-hi {
-  width: 40vw;
-  font-size: 7vw;
+  width: 100%;
+  height: 400px;
+  z-index: -101 !important;
+  font-size: 100px;
   text-align: center;
-  margin: 10vw;
+  margin: auto;
+  background-color: #444444;
+	transform: skewY(11deg);
 }
 
 .shad {
@@ -63,11 +69,70 @@ pre {
 }
 
 p {
-  opacity: 0%;
+  opacity: 100%;
   transition-duration: 0.6s;
 }
 
 .v {
-  opacity: 100% !important;
+  opacity: 0% !important;
   transition-duration: 0.6s;
+}
+
+#cont-i-th {
+  max-width: 50em;
+	margin: 0 auto;
+	transform: skewY(-11deg);
+}
+
+#code {
+  position: absolute;
+  right: 10px;
+  top: -90px;
+  margin-top: 200px;
+}
+
+#Showcase {
+}
+
+.card {
+  margin-left: -120px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color:#444444;
+  height: 20vw;
+  width: 25vw;
+  min-width: 150px;
+  min-height: 200px;
+  border-radius: 10px;
+  transform: skewX(-20deg);
+  transform: skewY(20deg);
+  box-shadow: 10px 10px 10px black;
+}
+
+.card:nth-child(1) {
+  z-index: 100;
+}
+
+.card:nth-child(2){
+  z-index: 99;
+}
+
+.card:nth-child(3){
+  z-index: 98;
+}
+
+.card:nth-child(4){
+  z-index: 97;
+}
+
+.c {
+  margin: auto;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  margin-left: 140px;
 }

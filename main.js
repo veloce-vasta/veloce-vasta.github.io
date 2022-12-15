@@ -16,15 +16,15 @@ function shad(el) {
 	}
 }
 
-function view(el) {
+function viewThing(el) {
 	if (isInViewport(document.querySelector(el))) {
-	    document.querySelector(el).classList.add("v");
+	    document.querySelector(el).classList.remove("v");
 	} else {
-	    document.querySelector(el).classList.remove("v")
+	    document.querySelector(el).classList.add("v")
 	}
 }
 
 function checkAll() {
     shad('pre');
-    view('p');
+    shad('.card')
 }
